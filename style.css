@@ -17,7 +17,6 @@
     --para:1rem;
     --secondary:0.813rem;
     --additional:1.5rem;
-
 }
 .logo{
     width: 13.875rem;
@@ -56,4 +55,5 @@ body{
 .navbar-text{
     font-size: 13px;
 }
-/*Section2*/
+
+
