@@ -31,7 +31,17 @@
 .button-text1{
     font: var(--secondary) var(--white);
 }
-.button-text1{
+
+.btn-bg{
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 0.438rem;
+    font-family: 'KronaOne-Regular', sans-serif;
+    text-transform: uppercase;
+}
+.button-text2{
     font: var(--secondary) var(--orange);
 }
 
@@ -55,5 +65,3 @@ body{
 .navbar-text{
     font-size: 13px;
 }
-
-
