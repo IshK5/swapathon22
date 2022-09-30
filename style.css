@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{ 
     --orange:#F98500;
@@ -31,10 +32,10 @@
 .btn-bg{
     color: var(--white);
     background-color: var(--orange);
-    padding: 10px 30px;
+    padding: 10px 20px;
     border: none;
     border-radius: 0.438rem;
-    font-family: 'KronaOne-Regular', sans-serif;
+    font-family: 'Outfit', sans-serif !important;
     text-transform: uppercase;
 }
 .button-text2{
@@ -55,7 +56,7 @@
 }
 
 body{
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif !important;
 }
 
 .navbar-text{
