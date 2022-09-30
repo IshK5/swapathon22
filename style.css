@@ -11,16 +11,45 @@
     --dark-orange:#C55B00;
     --balanced-white:#FFFAF5;
     --white:#fff;
+    --black:#000;
     --light-orange:#FFB969;
+    --header1:3rem;
+    --para:1rem;
+    --secondary:0.813rem;
+    --additional:1.5rem;
+}
 
+.nav-text{
+    font: var(--secondary) var(--black);
+    opacity: 0.6;
+}
+
+.button-text1{
+    font: var(--secondary) var(--white);
+}
+.button-text1{
+    font: var(--secondary) var(--orange);
+}
+
+.header{
+    font: var(--header1)var(--orange);
+}
+
+.para-text{
+    font: var(--secondary) var(--black);
+    opacity: 0.7;
+}
+
+.description{
+    font: var(--orange)var(--additional);
 }
 
 body{
     font-family: 'Outfit', sans-serif;
 }
 
-
 .navbar-text{
     font-size: 13px;
 }
-/*Section2*/
+
+
